@@ -1,0 +1,142 @@
+.header{
+    background-color:#f5deb3;
+}
+.header-left{}
+.header-left img{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+.header-right{
+}
+
+.header-right ul {
+    text-align: right;
+    margin-bottom: 0;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 20px;
+    line-height: 65px;
+    border-right: 1px solid #fff;
+    transition: .4s;
+}
+.header-right ul li a:hover{
+    background-color: #3498db;
+    
+}
+/* banner */
+.banner{
+    background-image: url("https://i.ibb.co/BVhBTxJ/intro-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-attachment: fixed;
+}
+.banner-caption h1{
+    color: #4587f3;
+    max-width: 900px;
+    margin: auto;
+    padding: 15px 0px;
+    font-size: 40px;
+    margin-top: -15px;
+}
+.banner-caption h4{
+    color: #4587f3;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+/* About Section */
+.about{
+   padding: 50px 0;
+}
+.about-img img{
+    width: 100%;
+    height: auto;
+}
+.about-content h2{
+    margin-bottom: 15px;
+}
+.about-content h4{
+    margin-bottom: 20px;
+}
+.about-content p{
+    line-height: 1.8rem;
+    letter-spacing: 1px;
+}
+
+/* Service sectin */
+.service{
+    padding: 70px 0;
+    background-color: #efebe4;
+}
+.services-item{
+    border: 1px dashed rgb(27, 16, 16);
+    border-radius: 20px 0 20px 0;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.services-item span{
+    display: block;
+    height: 60px;
+    width: 60px;
+    color: rgb(54, 4, 4);
+    padding:6px;
+    margin: auto;
+    font-size: 35px;
+    line-height: 60px;
+    border: 1px solid #111;
+    border-radius: 20px 0 20px 0;
+    margin-bottom: 10px;
+}
+.services-item h3{
+    font-size: 30px;
+    color: fuchsia;
+    margin-bottom: 15px;
+}
+.services-item p{
+    color: deeppink;
+}
+
+/* footer section */
+
+.footer{
+    background-color:#2c3e50;
+    padding: 15px 0;
+    color: #fff;
+}
+.footer-left{}
+
+.footer-left p{
+    font-size: 20px;
+}
+.footer-right{}
+.social-menu{
+    text-align: right;
+}
+.social-menu ul{
+    list-style: none;
+}
+.social-menu ul li{
+    display: inline-block;
+}
+.social-menu ul li a{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.social-menu ul li a:hover{
+    background-color: magenta;
+    color: rgb(248, 217, 248);
+}
